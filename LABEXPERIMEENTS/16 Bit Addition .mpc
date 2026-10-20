@@ -1,0 +1,53 @@
+8000
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Courier New;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\li203\cf1\f0\fs19 LXI H 8100
+\par MOV E M
+\par INX H
+\par MOV D M
+\par INX H
+\par MOV C M
+\par INX H
+\par MOV B M
+\par MOV A E
+\par ADD C
+\par STA 8104
+\par MOV A D
+\par ADC B
+\par STA 8105
+\par HLT\cf0 
+\par }
+<End Codes>
+20
+1| 8100| FF
+2| 8101| 12
+3| 8102| 01
+4| 8103| 00
+5| 8104| 00
+6| 8105| 13
+<End UserData>
+22
+1| 8000| 21
+2| 8001| 00
+3| 8002| 81
+4| 8003| 5E
+5| 8004| 23
+6| 8005| 56
+7| 8006| 23
+8| 8007| 4E
+9| 8008| 23
+10| 8009| 46
+11| 800A| 7B
+12| 800B| 81
+13| 800C| 32
+14| 800D| 04
+15| 800E| 81
+16| 800F| 7A
+17| 8010| 88
+18| 8011| 32
+19| 8012| 05
+20| 8013| 81
+21| 8014| 76
+<End HexData>
+
+<End Comment>
